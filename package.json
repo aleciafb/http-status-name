@@ -1,0 +1,30 @@
+{
+  "name": "http-status-name",
+  "version": "1.0.0",
+  "description": "Get HTTP-Status name by number",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./tests -name '*Test.js' | xargs mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "http",
+    "response",
+    "status",
+    "codes",
+    "name"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
