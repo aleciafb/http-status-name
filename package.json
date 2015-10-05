@@ -17,7 +17,8 @@
     "codes",
     "name"
   ],
-  "author": "Alecia Bester && André-Marthin Helberg",
+  "author": "Alecia Bester <alecia.bester@gmail.com> (https://github.com/aleciafb)",
+  "contributers": [{"name": "André-Marthin Helberg", "email": "helberg.andre@gmail.com"}],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aleciafb/http-status-name/issues"
