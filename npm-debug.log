@@ -12,18 +12,18 @@
 8 silly cache add   rawSpec: '.',
 8 silly cache add   spec: '/Users/aleciafb/Code/Personal/http-status-name',
 8 silly cache add   type: 'directory' }
-9 verbose addLocalDirectory /Users/aleciafb/.npm/http-status-name/1.0.0/package.tgz not in flight; packing
-10 verbose tar pack [ '/Users/aleciafb/.npm/http-status-name/1.0.0/package.tgz',
+9 verbose addLocalDirectory /Users/aleciafb/.npm/http-status-name/1.0.1/package.tgz not in flight; packing
+10 verbose tar pack [ '/Users/aleciafb/.npm/http-status-name/1.0.1/package.tgz',
 10 verbose tar pack   '/Users/aleciafb/Code/Personal/http-status-name' ]
-11 verbose tarball /Users/aleciafb/.npm/http-status-name/1.0.0/package.tgz
+11 verbose tarball /Users/aleciafb/.npm/http-status-name/1.0.1/package.tgz
 12 verbose folder /Users/aleciafb/Code/Personal/http-status-name
-13 info prepublish http-status-name@1.0.0
-14 verbose addLocalTarball adding from inside cache /Users/aleciafb/.npm/http-status-name/1.0.0/package.tgz
-15 silly cache afterAdd http-status-name@1.0.0
-16 verbose afterAdd /Users/aleciafb/.npm/http-status-name/1.0.0/package/package.json not in flight; writing
-17 verbose afterAdd /Users/aleciafb/.npm/http-status-name/1.0.0/package/package.json written
+13 info prepublish http-status-name@1.0.1
+14 verbose addLocalTarball adding from inside cache /Users/aleciafb/.npm/http-status-name/1.0.1/package.tgz
+15 silly cache afterAdd http-status-name@1.0.1
+16 verbose afterAdd /Users/aleciafb/.npm/http-status-name/1.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /Users/aleciafb/.npm/http-status-name/1.0.1/package/package.json written
 18 silly publish { name: 'http-status-name',
-18 silly publish   version: '1.0.0',
+18 silly publish   version: '1.0.1',
 18 silly publish   description: 'Get HTTP-Status name by number',
 18 silly publish   main: 'index.js',
 18 silly publish   scripts: { test: 'find ./tests -name \'*Test.js\' | xargs mocha -R spec' },
@@ -44,9 +44,9 @@
 18 silly publish   devDependencies: { chai: '^1.10.0', mocha: '^2.1.0' },
 18 silly publish   readme: '# http-status-name [![Build Status](https://travis-ci.org/aleciafb/http-status-name.svg?branch=master)](https://travis-ci.org/aleciafb/http-status-name)\n',
 18 silly publish   readmeFilename: 'README.md',
-18 silly publish   gitHead: '8fabd99b1287bef65889551a0d07817bf56889e7',
-18 silly publish   _id: 'http-status-name@1.0.0',
-18 silly publish   _shasum: '39c49c906f90b89f51f994c8e8a5a1522becf43f',
+18 silly publish   gitHead: '4efe5056dafc385a0d84cbbe53add945bcf2fe1a',
+18 silly publish   _id: 'http-status-name@1.0.1',
+18 silly publish   _shasum: '4deca0600f6ebad1e29a3c2698deac7bacb07027',
 18 silly publish   _from: '.' }
 19 verbose getPublishConfig undefined
 20 silly mapToRegistry name http-status-name
@@ -54,28 +54,28 @@
 22 silly mapToRegistry registry https://registry.npmjs.org/
 23 silly mapToRegistry uri https://registry.npmjs.org/http-status-name
 24 verbose publish registryBase https://registry.npmjs.org/
-25 silly publish uploading /Users/aleciafb/.npm/http-status-name/1.0.0/package.tgz
+25 silly publish uploading /Users/aleciafb/.npm/http-status-name/1.0.1/package.tgz
 26 verbose request uri https://registry.npmjs.org/http-status-name
 27 verbose request sending authorization for write operation
-28 info attempt registry request try #1 at 17:29:50
+28 info attempt registry request try #1 at 17:30:54
 29 verbose request using bearer token for auth
-30 verbose request id 6fca86e1b966b108
+30 verbose request id 21a44a1752d52949
 31 http request PUT https://registry.npmjs.org/http-status-name
 32 http 403 https://registry.npmjs.org/http-status-name
 33 verbose headers { 'content-type': 'application/json',
 33 verbose headers   'cache-control': 'max-age=60',
 33 verbose headers   'content-length': '128',
 33 verbose headers   'accept-ranges': 'bytes',
-33 verbose headers   date: 'Mon, 05 Oct 2015 15:29:56 GMT',
+33 verbose headers   date: 'Mon, 05 Oct 2015 15:30:58 GMT',
 33 verbose headers   via: '1.1 varnish',
 33 verbose headers   connection: 'keep-alive',
-33 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+33 verbose headers   'x-served-by': 'cache-lcy1130-LCY',
 33 verbose headers   'x-cache': 'MISS',
 33 verbose headers   'x-cache-hits': '0',
-33 verbose headers   'x-timer': 'S1444058994.650788,VS0,VE1728' }
+33 verbose headers   'x-timer': 'S1444059057.939016,VS0,VE1030' }
 34 verbose request invalidating /Users/aleciafb/.npm/registry.npmjs.org/http-status-name on PUT
 35 error publish Failed PUT 403
-36 verbose stack Error: "You cannot publish over the previously published version 1.0.0. Try bumping the version to 2.0.0" : http-status-name
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.1. Try bumping the version to 2.0.0" : http-status-name
 36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:263:12)
 36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:251:14)
 36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:171:14)
@@ -94,7 +94,7 @@
 42 error node v0.10.40
 43 error npm  v2.14.1
 44 error code E403
-45 error "You cannot publish over the previously published version 1.0.0. Try bumping the version to 2.0.0" : http-status-name
+45 error "You cannot publish over the previously published version 1.0.1. Try bumping the version to 2.0.0" : http-status-name
 46 error If you need help, you may report this error at:
 46 error     <https://github.com/npm/npm/issues>
 47 verbose exit [ 1, true ]
